@@ -1,0 +1,15 @@
+*.swp
+*.swo
+*.zip
+*.orig
+*.tox
+*.lock
+*.cache
+.DS_Store
+
+# Ignore Vim swap files.
+*~
+
+# Ignore setup stuffs.
+.idea
+data/i18n
