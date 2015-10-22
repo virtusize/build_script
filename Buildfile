@@ -21,7 +21,7 @@ export HELP_MESSAGE
 ORG_NAME := virtusize
 APP_NAME := $(shell basename $(CURDIR))
 DOCKER_IMAGE_NAME := $(ORG_NAME)/$(APP_NAME)
-IGNORE_TAGS := develop feature-%
+IGNORE_TAGS := feature-%
 
 GIT_BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 GIT_TAG := $(shell git describe --tags --always)
