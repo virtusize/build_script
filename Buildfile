@@ -19,7 +19,7 @@ endef
 export HELP_MESSAGE
 
 ORG_NAME := virtusize
-APP_NAME := $(shell basename $(CURDIR))
+APP_NAME ?= $(shell basename $(CURDIR))
 DOCKER_IMAGE_NAME := $(ORG_NAME)/$(APP_NAME)
 IGNORE_TAGS := feature-%
 
